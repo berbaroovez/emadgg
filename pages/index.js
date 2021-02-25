@@ -23,7 +23,9 @@ export default function Home() {
         {/* <EmadLogo src="./EmadGGLogo.png" /> */}
         <div>
           <h2>EmadGG</h2>
-          <h3>GG's Only</h3>
+          <h3>
+            GG's <span className="onlyText">Only</span>
+          </h3>
         </div>
 
         <EmadBody src="./EmadBody.png" />
@@ -99,6 +101,11 @@ const PageContainer = styled.div`
     font-weight: 600;
     font-style: italic;
     font-size: 60px;
+
+    span {
+      color: #1bdcfb;
+      -webkit-text-stroke: 1px white;
+    }
   }
 
   @media (min-width: 850px) {

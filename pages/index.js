@@ -86,20 +86,17 @@ const PageContainer = styled.div`
 
   div {
     text-align: center;
+    font-family: omnes-pro, sans-serif;
+    font-weight: 800;
+    font-style: italic;
   }
   h2 {
     /* padding-left: 80px; */
     margin-bottom: -20px;
-    font-family: omnes-pro, sans-serif;
-    font-weight: 800;
-    font-style: italic;
     font-size: 80px;
   }
   h3 {
     margin-top: 0;
-    font-family: omnes-pro, sans-serif;
-    font-weight: 800;
-    font-style: normal;
     font-size: 60px;
 
     span {

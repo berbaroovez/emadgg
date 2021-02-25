@@ -98,12 +98,12 @@ const PageContainer = styled.div`
   h3 {
     margin-top: 0;
     font-family: omnes-pro, sans-serif;
-    font-weight: 600;
-    font-style: italic;
+    font-weight: 800;
+    font-style: normal;
     font-size: 60px;
 
     span {
-      color: #1bdcfb;
+      color: #02a0fd;
       -webkit-text-stroke: 1px white;
     }
   }
